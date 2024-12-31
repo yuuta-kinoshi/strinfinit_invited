@@ -1,0 +1,27 @@
+.mobile-menu {
+  position: absolute;
+  background-color: var(--dark);
+  z-index: 10;
+  width: 100%;
+  top: 73px;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  transform: translateX(-15px);
+  z-index: 40;
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu ul li {
+  position: relative;
+  z-index: 40;
+}
+
+.mobile-menu ul li a {
+  font-size: 2rem;
+  color: #fff;
+}

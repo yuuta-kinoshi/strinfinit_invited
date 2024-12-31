@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Yuuta Kinoshi's color palette */
+:root {
+  --bg-color: #11111f;
+  --primary: rgb(245, 205, 83);
+  --dark: #1f2227;
+  --light-pink: #f1c5e6;
+  --mid-pink: #ec86d0;
+  --dark-pink: #b80688;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Teko', sans-serif;
+}
+
+body {
+  background: var(--dark);
+}
+
+.wrapper {
+  max-width: 1480px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Bebas Neue', serif;
+}
+
+li, a {
+  font-family: 'Teko', serif;
+}
+
+p, span {
+  font-family: 'Noto Sans', sans-serif;
+  color: var(--dark);
+}
+
+button {
+  background-color: var(--primary);
+  color: var(--dark);
+  padding: 10px 30px;
+  margin-top: 40px;
+  font-size: 1.5rem;
+  font-family: 'Kanit', serif;
+  font-weight: bold;
+  transition: .2s;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--dark);
+  color: var(--primary);
+}
+  
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #f5cd2b;
+  border: 35px none #ffffff;
+  border-radius: 21px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f5cd2b;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #f5cd2b;
+}
+::-webkit-scrollbar-track {
+  background: #1f2227;
+  border: 92px none #ffffff;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #1f2227;
+}
+::-webkit-scrollbar-track:active {
+  background: #1f2227;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
