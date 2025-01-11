@@ -17,7 +17,7 @@ const Invite = () => {
           <p>Para concorrer a vaga, basta entrar no nosso grupo do Discord, agendar uma partida e aguardar os resultados. Simples, né!</p>
           <div className="vagas">
             <strong>VAGAS:</strong>
-            <span>8/15</span>
+            <span>12/15</span>
           </div>
           <CaretDoubleDown className='arrow__down' size={74} />
           <Button text='Entrar no Servidor' type='link' url='https://discord.gg/927bb5DpJC' blank={true} />
